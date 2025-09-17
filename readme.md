@@ -1,17 +1,29 @@
 # logger-ps
 
-توضیح کوتاه در مورد اینکه این پکیج چی کار می‌کنه.
+- [logger-ps](#logger-ps)
+  - [how to install](#how-to-install)
+  - [how to use](#how-to-use)
+
+
 
 ## how to install 
+ ```
+npm i logger-ps
+```
 
-```bash
- npm install your-package-name
+## how to use 
 
-## how to use
 
-import { infoLogger,dangerLogger, errorLogger, succesLogger } from "logger-ps";
+```
+  import { infoLogger,dangerLogger, errorLogger, succesLogger }
+```
 
-infoLogger(msg:string)
-dangerLogger(msg:string)
-errorLogger(msg:string)
-succesLogger(msg:string)
+```
+  infoLogger(msg:string);
+  dangerLogger(msg:string);
+  errorLogger(msg:string);
+  succesLogger(msg:string);
+```
+
+
+
