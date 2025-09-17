@@ -25,4 +25,4 @@ const errorLogger = msg => {
 
 }
 
-export { infoLogger, errorLogger, succesLogger }
+export { infoLogger,dangerLogger, errorLogger, succesLogger }
