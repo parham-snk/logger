@@ -1,0 +1,29 @@
+{
+  "name": "ps-logger",
+  "version": "0.0.1",
+  "description": "logger for nodejs ",
+  "keywords": [
+    "logger",
+    "log",
+    "cmd",
+    "nodejs"
+  ],
+  "homepage": "https://github.com/parham-snk/logger#readme",
+  "bugs": {
+    "url": "https://github.com/parham-snk/logger/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/parham-snk/logger.git"
+  },
+  "license": "ISC",
+  "author": "parham-snk",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "chalk": "^5.6.2"
+  }
+}
