@@ -6,7 +6,7 @@ const getDate = () => {
     let d = date.getFullYear() + "/" + date.getMonth() + "/" + date.getDay()
     return d
 }
-getDate()
+
 const infoLogger = msg => {
     console.log(chalk.bgBlue.white(`[ INFO ] [${getDate()}] : `), ` ${msg}`)
 }
@@ -15,6 +15,14 @@ const dangerLogger = msg => {
     console.log(chalk.bgRed.white(`[Danger] [${getDate()}] : `) + `  ${msg}`)
 }
 
+const succesLogger = msg => {
+    console.log(chalk.bgGreen.white(`[Danger] [${getDate()}] : `) + `  ${msg}`)
 
+}
 
-export { infoLogger, dangerLogger }
+const errorLogger = msg => {
+    console.log(chalk.bgYellow.white(`[Danger] [${getDate()}] : `) + `  ${msg}`)
+
+}
+
+export { infoLogger, errorLogger, succesLogger }
