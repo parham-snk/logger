@@ -5,12 +5,12 @@
 
 
 
-# how to install 
+## how to install 
  ```
 npm i logger ps
 ```
 
-# how to use 
+## how to use 
 
 
 ```
