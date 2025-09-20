@@ -14,7 +14,7 @@ npm i logger ps
 
 
 ```
-  import { infoLogger,dangerLogger, errorLogger, succesLogger }
+  import { infoLogger,dangerLogger, errorLogger, succesLogger } from "logger-ps"
 ```
 
 ```
