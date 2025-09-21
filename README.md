@@ -1,27 +1,25 @@
 # logger-ps
 
-- [how to install](#how-to-install) 
-- [how to use](#how-to-use)
+- [logger-ps](#logger-ps)
+  - [how to install](#how-to-install)
+  - [how to use](#how-to-use)
 
 
 
 ## how to install 
  ```
-npm i logger ps
+npm i logger-ps
 ```
 
 ## how to use 
 
 
 ```
-  import { infoLogger,dangerLogger, errorLogger, succesLogger } from "logger-ps"
+  import logger from "logger-ps"
 ```
 
 ```
-  infoLogger(msg:string);
-  dangerLogger(msg:string);
-  errorLogger(msg:string);
-  succesLogger(msg:string);
+  logger(type: "info" | "danger" | "succes" | "error" , msg:numer|string )
 ```
 
 
